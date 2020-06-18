@@ -1,0 +1,31 @@
+{
+  "provider": {
+    "name": "retrievepayeemanagement"
+  },
+  "consumer": {
+    "name": "retrievepayeemanagement"
+  },
+  "interactions": [
+    {
+      "providerState": "gogo",
+      "description": "gogo",
+      "request": {
+        "method": "GET",
+        "path": "/req"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "kind": "cat",
+          "content": {
+            "meow": 1
+          }
+        }
+      }
+    }
+  ]
+}
+
